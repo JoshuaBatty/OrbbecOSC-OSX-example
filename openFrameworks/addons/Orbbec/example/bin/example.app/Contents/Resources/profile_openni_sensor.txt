@@ -1,0 +1,14 @@
+sorted list                                                    calls       self time      total time
+<unprofiled>                                                     0.0     20 ms 146072%     20 ms 146
+init_openni                                                      0.0     12 us   88%     12 us   88%
+temp_update                                                      0.9      1 us   10%      2 us   11%
+read_streams                                                     0.9    190 ns    1%    190 ns    1%
+~oni_adapter_plugin                                              0.1    100 ns    1%    100 ns    1%
+
+call tree                                                      calls       self time      total time
+<unprofiled>                                                     0.0     20 ms 146072%     20 ms 146
+  init_openni                                                    0.0     12 us   88%     12 us   88%
+  temp_update                                                    0.9      1 us   10%      2 us   11%
+    read_streams                                                 0.9    190 ns    1%    190 ns    1%
+  ~oni_adapter_plugin                                            0.1    100 ns    1%    100 ns    1%
+
